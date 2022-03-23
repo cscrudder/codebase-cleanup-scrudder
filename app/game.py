@@ -4,15 +4,13 @@
 
 from random import choice
 
-valid_selections = ["rock", "paper", "scissors"]
 #
 # USER SELECTION
 #
 
-
 u = input("Please choose one of 'Rock', 'Paper', or 'Scissors': ").lower()
 print("USER CHOICE:", u)
-if u not in valid_selections:
+if u not in ["rock", "paper", "scissors"]:
     print("OOPS, TRY AGAIN")
     exit()
 
@@ -20,7 +18,7 @@ if u not in valid_selections:
 # COMPUTER SELECTION
 #
 
-c = choice(valid_selections)
+c = choice(["rock", "paper", "scissors"])
 print("COMPUTER CHOICE:", c)
 
 #
