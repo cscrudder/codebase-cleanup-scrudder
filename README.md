@@ -41,7 +41,21 @@ SENDGRID_API_KEY="SG...."
 ## Usage
 
 Run the game:
-
 ```sh
 python app/game.py
+```
+
+Run the crypto tool:
+```sh
+python -m app/crypto.py
+```
+
+Run the stocks tool:
+```sh
+python -m app/stocks.py
+```
+
+Run the groceries tool:
+```sh
+python -m app/groceries.py
 ```
