@@ -20,12 +20,10 @@ def to_usd(price):
 #print(to_usd(float(price)))
 
 if __name__ == "__main__":
-    
+# if you're running the script from the command line, do the following:
         
     # if this code is in the global scope
     # ... of a file we're trying to import from
     # ... it will throw errors when we try to run those other files
     price = input("Please choose a price like 4.9999")
 
-    print(to_usd(float(price)))
-    return '${:,.2f}'.format(price)
